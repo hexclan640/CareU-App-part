@@ -15,14 +15,20 @@ public class loginPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_page);
 
-        btnlogin = findViewById(R.id.btnLog);
+//        btnlogin = findViewById(R.id.btnLog);
+//
+//        btnlogin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent i = new Intent(getApplicationContext(),homePage.class);
+//                startActivity(i);
+//            }
+//        });
+    }
 
-        btnlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(),homePage.class);
-                startActivity(i);
-            }
-        });
+
+    public void homePage(View view) {
+        Intent ne = new Intent(this,homePageDuplicate.class);
+        startActivity(ne);
     }
 }

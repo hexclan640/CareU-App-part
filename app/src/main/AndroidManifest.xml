@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".registrationPage"></activity>
+        <activity android:name=".homePageDuplicate"></activity>
+        <activity android:name=".Testpage" />
+        <activity android:name=".registrationPage" />
         <activity android:name=".homePage" />
         <activity android:name=".loginPage" />
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
